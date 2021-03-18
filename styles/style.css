@@ -689,9 +689,11 @@ footer span a:hover {
 }
 
 .image {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   width: 300px;
   height: 300px;
+  padding: 2%;
 }
 
 .overlay {
